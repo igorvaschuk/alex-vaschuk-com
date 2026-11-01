@@ -4,17 +4,17 @@ An artwork-focused static portfolio for **alex.vaschuk.com**.
 
 ## Current status
 
-Draft implementation. **Not yet published.** Artwork selection is pending access to Alex’s Facebook photos without unrelated private Messenger content. `public/works.js` deliberately has no placeholder or invented artwork.
+Eight original drawings curated from Alex’s Facebook album “Мои рисунки/относительно новое”, shared June 7, 2014. The site uses descriptive editorial titles and preserves links to each original post. A personal photograph in the album is omitted to keep the focus on the drawings.
 
 - Repository: https://github.com/igorvaschuk/alex-vaschuk-com
 - Hosting: Firebase project `vaschuk-com`, site `alex-vaschuk`
 - Default hosting URL: https://alex-vaschuk.web.app
-- Custom domain attached: `alex.vaschuk.com`, awaiting DNS
+- Custom domain attached: `alex.vaschuk.com`; CNAME added at GoDaddy
 - GitHub OIDC provider: `alex-repo`, restricted to this repository and `refs/heads/main`
 - Service account created: `alex-deployer@vaschuk-com.iam.gserviceaccount.com`
 - Deployment IAM grants: approved and applied (Firebase Hosting Admin, Service Usage Consumer, and repository impersonation)
 
-The workflow deploys on pushes to `main`. It uses short-lived OIDC credentials, with no service-account key in GitHub. It verifies Firebase access and checks that curated artwork exists before publishing; the empty draft is intentionally blocked by that content check.
+The workflow deploys on pushes to `main`. It uses short-lived OIDC credentials, with no service-account key in GitHub. It verifies Firebase access and checks that curated artwork exists before publishing.
 
 ## Content
 
@@ -22,7 +22,7 @@ Website files are in `public/`. Add curated images to `public/images/` and their
 
 The gallery supports category filters and an accessible modal viewer with previous/next buttons, arrow-key navigation, Escape to close, and focus return.
 
-Do not publish the draft before real artwork has been curated.
+Artwork images retain the original downloaded files. The source album is https://www.facebook.com/media/set/?set=a.535232863255047&type=3. Uploaded dates describe sharing dates, not verified creation dates.
 
 ## DNS
 
