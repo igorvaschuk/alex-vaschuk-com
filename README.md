@@ -4,7 +4,7 @@ An artwork-focused static portfolio for **alex.vaschuk.com**.
 
 ## Current status
 
-Eight original drawings curated from Alex’s Facebook album “Мои рисунки/относительно новое”, shared June 7, 2014. The site uses descriptive editorial titles and preserves links to each original post. A personal photograph in the album is omitted to keep the focus on the drawings.
+Nine original drawings: eight curated from Alex’s Facebook album “Мои рисунки/относительно новое”, shared June 7, 2014, and the horned portrait used as his cover photo, shared July 9, 2017. The site uses descriptive editorial titles and preserves links to each original post. A personal photograph in the album is omitted to keep the focus on the drawings.
 
 - Repository: https://github.com/igorvaschuk/alex-vaschuk-com
 - Hosting: Firebase project `vaschuk-com`, site `alex-vaschuk`
