@@ -18,6 +18,8 @@ The workflow deploys on pushes to `main`. It uses short-lived OIDC credentials, 
 
 ## Content
 
+The horned portrait leads both the homepage and gallery because Alex chose it as his Facebook cover image. It also supplies the site’s social sharing image.
+
 Website files are in `public/`. Add curated images to `public/images/` and their metadata to `public/works.js`. Each entry supports `file`, `title`, `description`, `category`, `date`, `source`, `width`, and `height`. Titles and dates should come from the original work; label descriptive editorial titles when originals are unavailable. Preserve original source links.
 
 The gallery supports category filters and an accessible modal viewer with previous/next buttons, arrow-key navigation, Escape to close, and focus return.

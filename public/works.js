@@ -1,16 +1,6 @@
 // Descriptive editorial titles; dates refer to the original Facebook posts.
 window.ARTWORKS = [
   {
-    "file": "images/skull-tentacles.jpg",
-    "title": "Skull & tentacles",
-    "category": "Surreal studies",
-    "description": "A skull surrounded by curling tentacles, built from fine lines and dense fields of dots.",
-    "date": "Shared June 2014",
-    "source": "https://www.facebook.com/photo/?fbid=535233329921667&set=a.535232863255047",
-    "width": 604,
-    "height": 604
-  },
-  {
     "file": "images/horned-portrait.jpg",
     "title": "Horned portrait",
     "category": "Surreal studies",
@@ -19,6 +9,16 @@ window.ARTWORKS = [
     "source": "https://www.facebook.com/photo/?fbid=1229169187194741",
     "width": 1280,
     "height": 904
+  },
+  {
+    "file": "images/skull-tentacles.jpg",
+    "title": "Skull & tentacles",
+    "category": "Surreal studies",
+    "description": "A skull surrounded by curling tentacles, built from fine lines and dense fields of dots.",
+    "date": "Shared June 2014",
+    "source": "https://www.facebook.com/photo/?fbid=535233329921667&set=a.535232863255047",
+    "width": 604,
+    "height": 604
   },
   {
     "file": "images/elephant.jpg",
