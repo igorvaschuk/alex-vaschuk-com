@@ -25,5 +25,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Verify Firebase access
+        run: npx --yes firebase-tools@15.34.2 hosting:sites:list --project vaschuk-com --json
+      - name: Require curated artwork before publishing
+        run: node scripts/check-content.cjs
       - name: Deploy to Firebase Hosting
         run: npx --yes firebase-tools@15.34.2 deploy --only hosting --project vaschuk-com --non-interactive

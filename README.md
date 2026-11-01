@@ -12,9 +12,9 @@ Draft implementation. **Not yet published.** Artwork selection is pending access
 - Custom domain attached: `alex.vaschuk.com`, awaiting DNS
 - GitHub OIDC provider: `alex-repo`, restricted to this repository and `refs/heads/main`
 - Service account created: `alex-deployer@vaschuk-com.iam.gserviceaccount.com`
-- Deployment IAM grants: pending explicit approval; not applied
+- Deployment IAM grants: approved and applied (Firebase Hosting Admin, Service Usage Consumer, and repository impersonation)
 
-The workflow will deploy on pushes to `main` once deployment IAM is configured. It uses short-lived OIDC credentials, with no service-account key in GitHub.
+The workflow deploys on pushes to `main`. It uses short-lived OIDC credentials, with no service-account key in GitHub. It verifies Firebase access and checks that curated artwork exists before publishing; the empty draft is intentionally blocked by that content check.
 
 ## Content
 
